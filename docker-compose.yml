@@ -54,6 +54,7 @@ services:
       - djangonetwork
     depends_on:
       - redis
+      - django
 
 networks:
   djangonetwork:
