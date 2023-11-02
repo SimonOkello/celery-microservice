@@ -2,7 +2,7 @@
 
 until cd /app
 do
-    echo "Waiting for server volume..."
+    echo "Waiting for django volume..."
 done
 
 # run a celerybeat :)
